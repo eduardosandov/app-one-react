@@ -21,14 +21,15 @@
   color: #61dafb;
 }
 .container {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
 }
 .container .container-login {
   background: white;
@@ -36,6 +37,33 @@
   height: 340px;
   color: #282c34;
   border-radius: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #3957fd;
+  border: 1px solid #0143d2;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #6c9af0;
 }
 
 @keyframes App-logo-spin {

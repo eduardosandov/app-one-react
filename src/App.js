@@ -1,6 +1,6 @@
+import logo from './assets/images/logo-ico.png';
 
 import './App.css';
-
 function App() {
   return (
     <div className="App">
@@ -8,19 +8,20 @@ function App() {
       </header>
       <main>
         <div className='container'>
+          <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to Laboratorio Teso de México
+          Bienvenido a Laboratorio Teso de México
         </p>
         <div className='container-login'>
             <div className='header-login'>              
             </div>
             <div className='main-login'>
                <form>
-                <div className='login-user'>
+                <div className='input-container'>
                 <label>Usuario: </label>
                   <input type="text" name='usename' />
                 </div>
-                <div className='login-password'>
+                <div className='input-container'>
                 <label>Password: </label>
                   <input type="Password" name='usepass' />
                 </div>
@@ -35,7 +36,6 @@ function App() {
         </div>
       </main>
       <footer>
-
       </footer>
     </div>
   );
