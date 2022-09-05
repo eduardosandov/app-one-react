@@ -1,12 +1,12 @@
 import React from "react";
+import Header from '../components/Header'
 import logo from '../assets/images/logo-ico.png';
 import '../App.css'
 
 const Login = () => {
   return (
     <div className="App">
-      <header className="App-header">        
-      </header>
+      <Header />
       <main>
         <div className='container'>
           <img src={logo} className="App-logo" alt="logo" />
