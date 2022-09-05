@@ -1,23 +1,18 @@
-import React from "react";
-import { BrowserRouter, Route } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from '../pages/Login';
-import Layout from '../containers/Layout';
-import AppContext from "../context/AppContext";
-import useInitialState from "../hooks/useInitialState";
+import Home from '../pages/Home';
 
-
-
-const App = () => {
-    const initialState = useInitialState();
+export default function App() {
     return (
-        <AppContext.Provider value={initialState}>
-            <BrowserRouter>
-            <Layout>                
-                    <Route exact path="/login" component={Login} />                
-            </Layout>
-            </BrowserRouter>
-        </AppContext.Provider>
-    )
+        <BrowserRouter>
+            <Routes>
+                <Route index element={<Home />} />
+                <Route path="login" element={<Login />} />
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
