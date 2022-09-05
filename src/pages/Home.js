@@ -1,15 +1,16 @@
 import React from "react";
 import Header from '../components/Header';
 import Footer from "../components/Footer";
-const Home = ({ children }) => {
-    return (
-        <div>
-            <Header />
-            {children}
+import '../styles/App.scss';
 
-            <h2>Home</h2>
-            <Footer />
-        </div> 
+const Home = () => {
+    return (
+        <React.Fragment>
+            <Header />
+            <h1>Home</h1>
+    <Footer />
+
+    </React.Fragment>  
     );
   };
   

@@ -1,6 +1,5 @@
 import React from "react";
-import '../styles/_vars.scss';
-import '../styles/Header.scss';
+import '../styles/App.scss';
 
 const Menu = () => {
     return (

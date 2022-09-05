@@ -1,7 +1,7 @@
 import React from "react";
 import Header from '../components/Header'
 import Footer from "../components/Footer";
-import logo from '../assets/images/logo-ico.png';
+
 import '../styles/App.scss'
 
 const Login = () => {
@@ -10,7 +10,7 @@ const Login = () => {
       <Header />
       <main>
         <div className='container'>
-          <img src={logo} className="App-logo" alt="logo" />
+          
         <p>
           Bienvenido a Laboratorio Teso de México S.A. de C.V.
         </p>
