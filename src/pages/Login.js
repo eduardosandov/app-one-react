@@ -12,7 +12,7 @@ const Login = () => {
         <div className='container'>
           <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Bienvenido a Laboratorio Teso de México
+          Bienvenido a Laboratorio Teso de México S.A. de C.V.
         </p>
         <div className='container-login'>
             <div className='header-login'>              
