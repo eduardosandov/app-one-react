@@ -30,7 +30,7 @@ function App() {
                 </div>
                </form>
             </div>
-            <div className='foother-login'>
+            <div className='footer-login'>
             </div>
         </div>
         </div>

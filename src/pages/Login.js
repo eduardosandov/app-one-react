@@ -1,5 +1,6 @@
 import React from "react";
 import Header from '../components/Header'
+import Footer from "../components/Footer";
 import logo from '../assets/images/logo-ico.png';
 import '../App.css'
 
@@ -36,8 +37,7 @@ const Login = () => {
         </div>
         </div>
       </main>
-      <footer>
-      </footer>
+      <Footer />
     </div>
   );
 };
