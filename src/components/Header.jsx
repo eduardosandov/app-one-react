@@ -1,6 +1,6 @@
 import React from "react";
-import '../styles/vars.css';
-import '../styles/Header.css';
+import '../styles/_vars.scss';
+import '../styles/Header.scss';
 
 const Menu = () => {
     return (
@@ -9,22 +9,13 @@ const Menu = () => {
             
             <ul>
                 <li>
-                    <a href="/">All</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/">Clothes</a>
+                    <a href="/about">About</a>
                 </li>
                 <li>
-                    <a href="/">Electronics</a>
-                </li>
-                <li>
-                    <a href="/">Furnitures</a>
-                </li>
-                <li>
-                    <a href="/">Toys</a>
-                </li>
-                <li>
-                    <a href="/">Others</a>
+                    <a href="/login">Login</a>
                 </li>
             </ul>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Header from '../components/Header'
 import Footer from "../components/Footer";
 import logo from '../assets/images/logo-ico.png';
-import '../App.css'
+import '../styles/App.scss'
 
 const Login = () => {
   return (
