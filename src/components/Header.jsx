@@ -4,8 +4,7 @@ import '../styles/App.scss';
 const Menu = () => {
     return (
         <nav>        
-        <div className="navbar-left">
-            
+        <div className="navbar-left">            
             <ul>
                 <li>
                     <a href="/">Home</a>
@@ -20,10 +19,8 @@ const Menu = () => {
         </div>
         <div className="navbar-right">
             <ul>
-                <li className="navbar-email" >
-                    
+                <li className="navbar-email" >                    
                 </li>
-
             </ul>
         </div>
 

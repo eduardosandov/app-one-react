@@ -4,9 +4,7 @@ const Footer = () => {
     return(
         <React.Fragment>
             <h2>Footer</h2>
-        </React.Fragment>
-
-    
+        </React.Fragment>   
     );
 }
 
